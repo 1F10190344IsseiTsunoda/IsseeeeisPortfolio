@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Issei's Lab - Design</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="Resources/icon/creations-favicon.png"/>
+    <!-- Font Desc -->
+    <!-- CSS Desc -->
+    <link rel="stylesheet" href="CSS/fontinstall.css">
+    <link rel="stylesheet" href="CSS/loading.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/creations.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9387738b28.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Loading -->
+    <div class="start-load">
+        <p><img src="Resources/icon/movingcreations.gif" alt="mybrand"></p>
+    </div> 
+
+    <!-- changescene -->
+    <div id="splash">
+        <div class="splashbg"></div>
+    </div>
+
+    <!-- Header -->
+    <div id="header-nav">
+        <img src="Resources/icon/creations.png" class="main-logo">
+        <div class="creation-links">
+            <ul>
+                <li><a href="#head-game"><img class="game-icon creation-li" src="Resources/icon/Navicon/game.png"></a></li>
+                <li><a href="#head-infographic"><img class="infographic-icon creation-li" src="Resources/icon/Navicon/infographic.png"></a></li>
+                <li><a href="#head-logo"><img class="logo-icon creation-li" src="Resources/icon/Navicon/logo.png"></a></li>
+                <li><a href="#head-product"><img class="product-icon creation-li" src="Resources/icon/Navicon/product.png"></a></li>
+                <li><a href="#head-web"><img class="web-icon creation-li" src="Resources/icon/Navicon/web.png"></a></li>
+            </ul>
+        </div>
+        <div id="nav-toggle">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+             
+            <div id="nav-circle-bg"></div>
+            <nav id="nav">
+            <ul>
+                <li><a href="index.html"><p>Home</p></a></li>
+                <li><a href="creation.html"><p>Design</p></a></li>
+                <li><a href="blog.html"><p>Blog</p></a></li>
+            </ul>
+            </nav>
+    </div>
+
+    <div id="welcome-nav">
+      <header id="head-welcome">
+        <h1>Welcome! <br> <span>click and view my Designs</span></h1>
+      </header>
+        <img src="Resources/photo/desc/touchtodesc.gif" class="touch-desc">
+    </div>
+
+<!-- Game -->
+    <header id="head-game">
+        <h1>Game <br> <span><i style="color:black" class="fab fa-unity fa-lg unity"></i><img class="ue4" src="Resources/photo/learning-img/unreal-engine.png"></span></h1>
+    </header>
+    <div class="top"></div>
+    <section class="gallery">
+        <div class="row">
+            <ul class="list">
+                <a href="#" class="close"></a>
+
+                <li>
+                    <a href="#WarriorQuest">
+                        <img src="Resources/photo/Creations/Game/Unity-Game.png" alt="">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#KNIGHTBLADE">
+                        <img src="Resources/photo/Creations/Game/KNIGHTBLADE.png" alt="">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#DotAdventure">
+                        <img src="Resources/photo/Creations/Game/2.5D Game.png" alt="">
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    
+        <div id="WarriorQuest" class="port">
+            <div id="WarriorQuest-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#WarriorQuest-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#WarriorQuest-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>Warrior Quest</h1>
+                            <p>初めてUnityで作成したゲームです。
+                              <br>2Dアクションゲームで、エフェクトやモーションもつけました
+                            </p>
+                            <br><h5>Next Slide: My Promotion</h5>
+                        </div>
+                        <img src="Resources/photo/Creations/Game/Warrior Quest.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="d-block w-100" style="margin-top: -50px;" src="https://docs.google.com/presentation/d/e/2PACX-1vROXlfa9NLjRaJXJJnOqPVk1FIbQGwVLWGz-TDPzOlSeDglT7bh2bfS8YZOfWUhINnG5kBfjuEbtQEu/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#WarriorQuest-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#WarriorQuest-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    
+        <div id="KNIGHTBLADE" class="port">
+            <div id="KNIGHTBLADE-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#KNIGHTBLADE-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#KNIGHTBLADE-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>KNIGHTBLADE</h1>
+                            <p>2Dゲームの戦闘シーンを作成しました。実際に体力が減る処理をしたり、ゲームオーバーや勝利リザルト画面も作成しました<hr>
+                            <br>Unity ver 2021.1.24f1<br>
+                            使用アセット<br>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Game/KNIGHTBLADE.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="d-block w-100"  style="margin-top: -30px;" src="https://docs.google.com/presentation/d/e/2PACX-1vROe6COXEUlS-b4ggkJdyu3QfPyN5u6lwWQ9sL3ubxS0dfrvdOz1lWqiUL9E2sehHgjRX-S0VzTDZCY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#KNIGHTBLADE-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#KNIGHTBLADE-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="DotAdventure" class="port">
+            <div id="DotAdventure-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#DotAdventure-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#DotAdventure-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>Dot Adventure</h1>
+                            <p>3年生の課題で作成したゲームです。<br>3Dでは画面酔いしてしまうという人や2Dが好きだけど王少し現代っぽくしてほしいという人をターゲットに、ドット絵と3Dを混ぜた2.5Dと呼ばれるゲームのチュートリアルシーンのようなものを作成しました。<br>アニメーションやBGM・SEにも凝って作っています。<br>現在も続けて製作中。<hr>
+                            <br>Unity ver 2020.3.21f1<br>
+                            使用アセット<br>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Game/2.5D Game.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="d-block w-100" style="margin-top: -10px;" src="https://docs.google.com/presentation/d/e/2PACX-1vSUCZYhy_PSyVu6p4CUeNwfMO4DP8zrT5hB7xdrfRZTVEk6GvifmVQnlccWOKdAomEuupILhFSeWApU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#DotAdventure-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#DotAdventure-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    
+    </section>
+
+<!-- Infographic -->
+    <header id="head-infographic">
+    <h1>Infographic <br> <span><img class="illustration" src="Resources/photo/skill-img/illustrator.png"></span></h1>
+    </header>
+    <div class="top"></div>
+    <section class="gallery">
+        <div class="row">
+        </div>
+        
+    </section>
+
+<!-- Logo -->
+    <header id="head-logo">
+        <h1>Logo <br> <span><img class="illustration" src="Resources/photo/skill-img/illustrator.png"></span></h1>
+    </header>
+
+    <div class="top"></div>
+    <section class="gallery">
+        <div class="row">
+            <ul class="list">
+                <a href="#" class="close"></a>
+
+                <li>
+                    <a href="#IsseiLab">
+                        <img src="Resources/icon/mybrand.png" alt="">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#MIL">
+                        <img src="Resources/photo/Creations/Logo/MakeITLab.png" alt="">
+                    </a>
+                </li>  
+            </ul>
+        </div>
+    
+        <div id="IsseiLab" class="port">
+        
+            <div id="IsseiLab-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#IsseiLab-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#IsseiLab-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>Portfolio's Logo</h1>
+                            <p>
+                                このポートフォリオのロゴです。色々なものを生み出すラボというコンセプトだったので、実験のような感じが出るように工夫しました。<br>
+                                このポートフォリオのロゴやアイコンはほとんど自作なのでそこも楽しんでいただけると幸いです。
+                            </p>
+                        </div>
+                        <img src="Resources/icon/mybrand.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <img style="width:30%;" src="Resources/icon/blog.png">
+                    <img style="width:30%;" src="Resources/icon/creations.png">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#IsseiLab-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#IsseiLab-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    
+        <div id="MIL" class="port">
+            <div id="MIL-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#MIL-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#MIL-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>MakeITLab (MIL)</h1>
+                            <p>
+                            自分の作ったゲームを紹介するサイトを作成する際に使用したロゴになります。イラストレーターにて作成しました。
+                            <br><h5>Next Slide: Gallery</h5>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Logo/MIL.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#MIL-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#MIL-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    
+    </section>
+
+<!-- Product -->
+    <header id="head-product">
+        <h1>Product <br> <span><img class="fusion360" src="Resources/photo/skill-img/autodesk-fusion-360-50.png"><img class="blender" src="Resources/photo/learning-img/Blender_23505.png"></span></h1>
+    </header>
+
+    <div class="top"></div>
+    <section class="gallery">
+        <div class="row">
+            <ul class="list">
+                <a href="#" class="close"></a>
+
+                <li>
+                    <a href="#ChairDesign">
+                        <img src="Resources/photo/Creations/Product/Chair-Design.png" alt="">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#Camera">
+                        <img src="Resources/photo/Creations/Product/INIAD Cam v1.png" alt="">
+                    </a>
+                </li>            
+            </ul>
+        </div>
+    
+        <div id="ChairDesign" class="port">
+        
+            <div id="ChairDesign-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#ChairDesign-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#ChairDesign-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>Luxair</h1>
+                            <p>
+                            Fusion360にて作成。Luxury + Chairを組みわせたコンセプトとして作成しました。<br>
+                            奥まった構造で座り心地や見た目を贅沢な感じにしました。カラーバリエーションなども存在します。
+                            <br><h5>Next Slide: my promotion</h5>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Product/Chair-Design.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="d-block w-100" src="https://docs.google.com/presentation/d/e/2PACX-1vQYZM2MFr8MrPbi2AMd9pHYDMQv8QL-S9cKT47PqYMv_oj2dIwBF_D-mR-pbZ1sRZYDL3cTOwzvLmpI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <br><h5>Next Slide:</h5>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#ChairDesign-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#ChairDesign-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    
+        <div id="Camera" class="port">
+        
+            <div id="Camera-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#Camera-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#Camera-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>INICam</h1>
+                            <p>
+                            流動的なサイトをコンセプトに商品紹介サイト(INIGadget)を作成したのですが、そのために作成した製品になります。カラーバリエーションやカスタムパーツを組み合わせられるという特徴を持っています。
+                            <br><h5>Next Slide: Gallery</h5>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Product/INIcam-disassemble.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe class="d-block w-100" src="https://docs.google.com/presentation/d/e/2PACX-1vQkZvafFKRCMvd0b5SNOqy5Pvh_JRW4uzzqdAptIQ2R1hCbuMoLnPSGsTwCIobFodYlPgQ3A0MCzVpW/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Camera-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Camera-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    
+        </div>    
+    </section>
+
+<!-- Web -->
+    <header id="head-web">
+        <h1>Web <br> <span><i style="color:red; margin-right: -10px;" class="fab fa-html5 fa-lg html"></i>
+        <i style="color:skyblue;" class="fab fa-css3 fa-lg css"></i><i style="color:yellow" class="fab fa-js fa-lg js"></i><img class="vscode" src="Resources/photo/skill-img/vscode.png"></span></h1>
+    </header>
+
+    <div class="top"></div>
+    <section class="gallery">
+        <div class="row">
+            <ul class="list">
+                <a href="#" class="close"></a>
+
+                <li>
+                    <a href="#INIGadget">
+                        <img src="Resources/photo/Creations/Web/INIGadget-Website.png" alt="">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#INICation">
+                        <img src="Resources/photo/Creations/Web/INIcation-Website.png" alt="">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#INITravel">
+                        <img src="Resources/photo/Creations/Web/INITravel-Websitepng.png" alt="">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Dynamusic">
+                        <img src="Resources/photo/Creations/Web/Dynamusic-v1.png" alt="">
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    
+        <div id="INIGadget" class="port">
+        
+            <div id="INIGadget-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#INIGadget-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#INIGadget-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#INIGadget-slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>INIGadget</h1>
+                            <p>
+                              Appleのサイトのような流動的なデザインをコンセプトに自社製品（自作）を紹介するサイトです。
+                              サイトの他にも商品をFusion360を使って作成し、タッチで動いたり動画を仕込んだりと工夫しました。
+                            <br><h5>Next Slide:My Promotion</h5>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Web/INIGadget-Website.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="d-block w-100" src="https://docs.google.com/presentation/d/e/2PACX-1vSgQub_95Uj0amqm77HVIlZ0_I1SKZmH_BE0eX5gC-zdZSaYe_LofAkd4AqqdRvVwEOWE27OcF3a2H4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <br><h5>Next Slide:</h5>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#INIGadget-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#INIGadget-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    
+        <div id="INICation" class="port">      
+            <div id="INICation-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#INICation-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#INICation-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#INICation-slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>INICation</h1>
+                            <p>
+                              授業の課題で作成しました。<br>Covid-19に対抗するINIAD生のためのサイトをコンセプトに、簡易的なコミュニケーションツールや大学内の人数などを示せます。
+                            <br><h5>Next Slide:My Promotion</h5>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Web/INIcation-Website.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="d-block w-100" src="https://docs.google.com/presentation/d/e/2PACX-1vTckys10SeJXaqRjFt7jKu4vR1_ejUzfBUzV39nM9imHZcXj6n4JXOPc3QBONCsxXMhFNNVtjua7X6f/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <br><h5>Next Slide:</h5>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#INICation-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#INICation-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    
+        </div>
+
+        <div id="INITravel" class="port">
+            <div id="INITravel-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#INITravel-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#INITravel-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#INITravel-slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>INITravel</h1>
+                            <p>
+                              授業の課題で作成しました。<br>日本に来る外国人旅行者をターゲットにし、このサイトで日本の旅行のプランを立てられるようなサイトをコンセプトに作成しました。
+                              <br>日本風の和なデザインや全体的に桜色にまとめ、景色やホテルなどいろいろな観点からプランを立てられるようなサイトに工夫しました。
+                            <br><h5>Next Slide:My Promotion</h5>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Web/INITravel-Websitepng.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="d-block w-100" src="https://docs.google.com/presentation/d/e/2PACX-1vSdIHLNLvOVDLNM3SOxiSR6lAYo-61IGnBKbmCsixFgSmDT82ICfQzLf-euwILkrE3geOr8YybK7f2t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <br><h5>Next Slide:</h5>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#INITravel-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#INITravel-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="Dynamusic" class="port">
+            <div id="Dynamusic-slide" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button style="background-color: #72c3ee;" type="button" data-bs-target="#Dynamusic-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#Dynamusic-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button style="background-color: #72c3ee;" class="indicators-original" type="button" data-bs-target="#Dynamusic-slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row d-block w-100">
+                        <div class="description">
+                            <h1>Dynamusic</h1>
+                            <p>実習Ⅲでチームメンバーと共に作成したチーム開発アプリ。<br>
+                            「ニューノーマルに対応した作曲アプリ」をコンセプトに、コロナ渦によってライブや音楽活動が減った現在でもオンラインで作曲ができるようになるという目的として開発がスタート。
+                            <br>DynamusicはDynamuic + musicを組み合わせた造語であり、複数のユーザーによって編集された楽曲というのが大きな特徴になっている。私はこのアプリのフロントエンドとして担当している。<hr>
+                            <br><h5>チームメンバー</h5><br>
+                            泉川 叶多さん:プロジェクトマネージャー、バックエンド<br>
+                            堀口 紘平さん:バックエンド<br>
+                            三浦 星河さん:バックエンド<br>
+                            <br><h5>Next Slide:Our Promotion</h5>
+                            </p>
+                        </div>
+                        <img src="Resources/photo/Creations/Web/Dynamusic-v1.png" alt="">
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="20000">
+                    <iframe class="mypresentation d-block w-100" src="https://docs.google.com/presentation/d/e/2PACX-1vQ7tkovuIEusJH6_5p8RxblpJDH745agiX-FPM3GOkYTYk9C-3kx9KwDx5Zre395SBWxCsl7SjYw3-H/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <br><h5>Next Slide:Dynamusic 途中報告</h5>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe class="mypresentation d-block w-100" src="https://docs.google.com/presentation/d/e/2PACX-1vSpNLGFTdFbJDHHypEbTD6q--B-cE5N0DrBHOQSAC04qbelm6vPGsoIAnWNE57L0F6Q3E5DT0CDnLWS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Dynamusic-slide" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Dynamusic-slide" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Side nav -->
+    <aside id="side-nav">
+        <ul class="sns-links">
+            <li class="sns-icon twitter"><a href="https://twitter.com/home" style="color:inherit;"><i class="fab fa-twitter"></i></a></li>
+            <li class="sns-icon instagram"><a href="https://www.instagram.com/isseeeei3609/" style="color:inherit;"><i class="fab fa-instagram"></i></a></li>
+            <li class="sns-icon github"><a href="https://github.com/1F10190344IsseiTsunoda" style="color:inherit;"><i class="fab fa-github-square"></i></a></li>
+        </ul>
+    </aside>
+    <!-- Footer -->
+    <a href="#welcome-nav" id="page-top2"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- JS Desc -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="JS/startfade.js"></script>
+    <script src="JS/scrollanim.js"></script>
+    <script src="JS/Loadtop.js"></script>
+    <script src="JS/sidenav.js"></script>
+    <script src="JS/imgcard.js"></script>
+</body>
+</html>
